@@ -85,7 +85,7 @@ int main()
 		if (X[k]> 1)
 		{
 
-			cout <<"the frequency with magintudes large than 1 is:"<< k << " the magintudes :" << X[k] << endl;
+			cout <<"the frequency is:"<< k << " the amplitude :" << X[k]/sample_rate << endl;
 
 		}
 		
