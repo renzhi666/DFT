@@ -80,7 +80,7 @@ int main()
 
 		}
 		//magnitudes of kth frequency 
-		X[k] = sqrt( pow(X_re[k],2)  + pow(X_im[k],2));
+		X[k] = sqrt( pow(X_re[k],2)  + pow(X_im[k],2))*2;
 		
 		if (X[k]> 1)
 		{
